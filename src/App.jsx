@@ -442,3 +442,4 @@ Seja específico, inspirador e útil. Limite a 250 palavras. Não use marcadores
   if (step === "loading") return <LoadingScreen />;
   if (step === "results") return <ResultsScreen scores={scores} aiInsight={aiInsight} />;
 }
+   
