@@ -272,7 +272,7 @@ function ResultsScreen({ scores, aiInsight, name }) {
                 />
                 <Bar dataKey="score" radius={[0, 6, 6, 0]}>
                   {barData.map((entry) => (
-                    <rect key={entry.key} fill={DISC_INFO[entry.key].color} />
+                    <Cell key={entry.key} fill={DISC_INFO[entry.key].color} />
                   ))}
                 </Bar>
               </BarChart>
